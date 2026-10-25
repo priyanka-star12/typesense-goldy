@@ -1,0 +1,139 @@
+
+[
+  {
+    "title": "The Hobbit",
+    "authors": ["J. R. R. Tolkien"],
+    "publication_year": 1937,
+    "id": "7",
+    "average_rating": 4.28,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "authors": ["J. D. Salinger"],
+    "publication_year": 1951,
+    "id": "8",
+    "average_rating": 3.79,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg"
+  },
+  {
+    "title": "Angels & Demons",
+    "authors": ["Dan Brown"],
+    "publication_year": 2000,
+    "id": "9",
+    "average_rating": 3.85,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780671027360-M.jpg"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "authors": ["Jane Austen"],
+    "publication_year": 1813,
+    "id": "10",
+    "average_rating": 4.28,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg"
+  },
+  {
+    "title": "The Kite Runner",
+    "authors": ["Khaled Hosseini"],
+    "publication_year": 2003,
+    "id": "11",
+    "average_rating": 4.26,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781594631931-M.jpg"
+  },
+  {
+    "title": "Divergent",
+    "authors": ["Veronica Roth"],
+    "publication_year": 2011,
+    "id": "12",
+    "average_rating": 4.24,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780062024039-M.jpg"
+  },
+  {
+    "title": "Nineteen Eighty-Four",
+    "authors": ["George Orwell"],
+    "publication_year": 1949,
+    "id": "13",
+    "average_rating": 4.19,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg"
+  },
+  {
+    "title": "Animal Farm",
+    "authors": ["George Orwell"],
+    "publication_year": 1945,
+    "id": "14",
+    "average_rating": 3.98,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780451526342-M.jpg"
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "authors": ["Anne Frank"],
+    "publication_year": 1947,
+    "id": "15",
+    "average_rating": 4.18,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553296983-M.jpg"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "authors": ["Stieg Larsson"],
+    "publication_year": 2005,
+    "id": "16",
+    "average_rating": 4.16,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780307454546-M.jpg"
+  },
+  {
+    "title": "Catching Fire",
+    "authors": ["Suzanne Collins"],
+    "publication_year": 2009,
+    "id": "17",
+    "average_rating": 4.3,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439023498-M.jpg"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "authors": ["J. K. Rowling"],
+    "publication_year": 1999,
+    "id": "18",
+    "average_rating": 4.58,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439136358-M.jpg"
+  },
+  {
+    "title": "The Fellowship of the Ring",
+    "authors": ["J. R. R. Tolkien"],
+    "publication_year": 1954,
+    "id": "19",
+    "average_rating": 4.38,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780547928210-M.jpg"
+  },
+  {
+    "title": "Mockingjay",
+    "authors": ["Suzanne Collins"],
+    "publication_year": 2010,
+    "id": "20",
+    "average_rating": 4.03,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439023511-M.jpg"
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "authors": ["J. K. Rowling"],
+    "publication_year": 2003,
+    "id": "21",
+    "average_rating": 4.5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439358071-M.jpg"
+  },
+  {
+    "title": "The Lovely Bones",
+    "authors": ["Alice Sebold"],
+    "publication_year": 2002,
+    "id": "22",
+    "average_rating": 3.77,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780316168816-M.jpg"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "authors": ["J. K. Rowling"],
+    "publication_year": 1998,
+    "id": "23",
+    "average_rating": 4.47,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439708180-M.jpg"
+  }
+]

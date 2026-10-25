@@ -1,0 +1,67 @@
+
+[
+  {
+    "id": "reader_101",
+    "name": "Aarav Sharma",
+    "city": "Pune",
+    "favorite_genre": "Fantasy",
+    "books_read": 12,
+    "membership": "Gold"
+  },
+  {
+    "id": "reader_102",
+    "name": "Priya Patil",
+    "city": "Sangli",
+    "favorite_genre": "Self-help",
+    "books_read": 8,
+    "membership": "Silver"
+  },
+  {
+    "id": "reader_103",
+    "name": "Rahul Deshmukh",
+    "city": "Mumbai",
+    "favorite_genre": "Mystery",
+    "books_read": 21,
+    "membership": "Gold"
+  },
+  {
+    "id": "reader_104",
+    "name": "Sneha Joshi",
+    "city": "Nashik",
+    "favorite_genre": "Romance",
+    "books_read": 15,
+    "membership": "Silver"
+  },
+  {
+    "id": "reader_105",
+    "name": "Aditya Kulkarni",
+    "city": "Kolhapur",
+    "favorite_genre": "Technology",
+    "books_read": 6,
+    "membership": "Basic"
+  },
+  {
+    "id": "reader_106",
+    "name": "Neha Shah",
+    "city": "Pune",
+    "favorite_genre": "Self-help",
+    "books_read": 18,
+    "membership": "Gold"
+  },
+  {
+    "id": "reader_107",
+    "name": "Rohan More",
+    "city": "Sangli",
+    "favorite_genre": "Fantasy",
+    "books_read": 9,
+    "membership": "Basic"
+  },
+  {
+    "id": "reader_108",
+    "name": "Ananya Desai",
+    "city": "Mumbai",
+    "favorite_genre": "Mystery",
+    "books_read": 25,
+    "membership": "Gold"
+  }
+]

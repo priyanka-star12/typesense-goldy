@@ -1,0 +1,37 @@
+
+name: Goldy Python CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify main.py
+        run: test -f main.py
+
+      - name: Check Python syntax
+         run: python -m py_compile main.py
+
+      - name: Check Python syntax
+         run: python -m compileall -q src
+      
+      - name: Check Python syntax
+         run: python -m compileall -q . 
+
+      - name: Check JSON files
+        run: |
+           python -c "import json, pathlib; files=list(pathlib.Path('.').reglob('*.json')); [json.load(p.read_text(encoding='utf-8')) for p in files]; print(f'validated {len(files)} JSON files')"

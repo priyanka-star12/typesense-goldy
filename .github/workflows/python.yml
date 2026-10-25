@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 name: Typesense Python CI
 
 on:
@@ -6,19 +7,34 @@ on:
     branches: [master, main]
   pull_request:
     branches: [master, main]
+=======
+name: Goldy Python CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+>>>>>>> 06e934c (Add Python CI workflow)
   workflow_dispatch:
 
 jobs:
   check-python:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
 
     steps:
       - name: Checkout repository
+=======
+    steps:
+      - name: Checkout code
+>>>>>>> 06e934c (Add Python CI workflow)
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
+<<<<<<< HEAD
           python-version: "3.13"
 
       - name: Check Python syntax
@@ -33,3 +49,12 @@ jobs:
         run: |
           python -c "import json; json.load(open('Typesense.ipynb', encoding='utf-8'))"
           python -c "import json; json.load(open('agentic.ipynb', encoding='utf-8'))"
+=======
+          python-version: "3.11"
+
+      - name: Verify main.py
+        run: test -f main.py
+
+      - name: Check Python syntax
+        run: python -m py_compile main.py
+>>>>>>> 06e934c (Add Python CI workflow)
