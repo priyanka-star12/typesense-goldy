@@ -22,7 +22,11 @@ jobs:
   check-python:
     runs-on: ubuntu-latest
 <<<<<<< HEAD
-
+<<<<<<< HEAD
+...
+=======
+...
+>>>>>>> 06e934c
     steps:
       - name: Checkout repository
 =======
